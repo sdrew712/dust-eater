@@ -1,6 +1,7 @@
 import axios from "axios";
+require("dotenv").config();
 
-const URL = "https://patchbay.pub/ddzb-v291";
+const URL = process.env.REACT_APP_URL;
 
 const handleDirection = async (command) => {
   console.log(command);
