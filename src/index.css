@@ -19,6 +19,7 @@ button {
   height: 100px;
   border: none;
   margin: 5px;
+  font-size: 16px;
 }
 
 .buttons {
