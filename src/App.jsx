@@ -11,7 +11,7 @@ const handleDirection = async (command) => {
   }
 };
 
-function App() {
+const App = () => {
   return (
     <>
       <h1>Dust Eater</h1>
@@ -37,6 +37,6 @@ function App() {
       </button>
     </>
   );
-}
+};
 
 export default App;
