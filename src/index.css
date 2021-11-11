@@ -4,13 +4,45 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: rgb(180, 222, 255);
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+h1 {
+  padding-top: 24px;
+  padding-bottom: 40px;
 }
 
 button {
   width: 100px;
   height: 100px;
+  border: none;
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#forward {
+  background-color: rgb(255, 255, 182);
+}
+
+#right {
+  background-color: rgb(183, 255, 214);
+}
+
+#left {
+  background-color: rgb(180, 222, 255);
+}
+
+#stop {
+  background-color: rgb(255, 198, 198);
+}
+
+#back {
+  background-color: rgb(255, 221, 191);
 }
